@@ -117,10 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Learn about building Web apps with ASP.NET Core." xml:space="preserve">
-    <value>ساخت وب اپلیکیشن را یاد بگیرید.</value>
+  <data name="Message text" xml:space="preserve">
+    <value>متن پیام</value>
   </data>
-  <data name="Submit" xml:space="preserve">
-    <value>ارسال</value>
+  <data name="Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Phone Number" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="Use only Persian or English letters." xml:space="preserve">
+    <value>فقط از حروف فارسی یا انگلیسی استفاده کنید.</value>
+  </data>
+  <data name="You have not entered {0} or it contains forbidden characters." xml:space="preserve">
+    <value>{0} را وارد نکرده اید یا حاوی کاراکترهای غیر مجاز است.</value>
+  </data>
+  <data name="{0} is required" xml:space="preserve">
+    <value>{0} الزامی است</value>
+  </data>
+  <data name="{0} must contain maximum 11 digits." xml:space="preserve">
+    <value>{0} باید حداکثر 11 رقم باشد.</value>
   </data>
 </root>

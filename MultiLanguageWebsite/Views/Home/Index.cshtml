@@ -1,7 +1,46 @@
 ﻿@inject IHtmlLocalizer<SharedResource> SharedLocalizer
 @inject IViewLocalizer Localizer
 
+@model ContactRequest
+
 <div class="text-center">
     <h1 class="display-4">@SharedLocalizer["Welcome"]</h1>
     <p>@Localizer["Learn about building Web apps with ASP.NET Core."]</p>
 </div>
+
+<form id="contact-form" method="post" asp-action="post" role="form">
+    <div class="col-md-12 p-md-4 p-3">
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-3"></label>
+            <div class="col-sm-8 col-xl-7">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="PhoneNumber" class="col-sm-3"></label>
+            <div class="col-sm-8 col-xl-7">
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Message" class="col-sm-3"></label>
+            <div class="col-sm-8 col-xl-7">
+                <textarea asp-for="Message" class="form-control" rows="7"></textarea>
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+        </div>
+
+        <button id="submitButton" type="submit" class="btn btn-success fa-pull-left">@Localizer["Submit"]</button>
+
+    </div>
+</form>
+
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");    }
+}
+
