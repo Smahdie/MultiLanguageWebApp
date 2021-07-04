@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MultiLanguageWebsite.Models
+namespace MultiLanguageWebApp.Models
 {
     public class ContactRequest
     {

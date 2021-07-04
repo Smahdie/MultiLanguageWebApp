@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace MultiLanguageWebsite
+namespace MultiLanguageWebApp
 {
     public class Startup
     {

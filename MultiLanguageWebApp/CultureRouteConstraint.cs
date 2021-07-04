@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 using System.Collections.Generic;
 
-namespace MultiLanguageWebsite
+namespace MultiLanguageWebApp
 {
     public class CultureRouteConstraint : IRouteConstraint
     {

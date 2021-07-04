@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
-namespace MultiLanguageWebsite.Controllers
+namespace MultiLanguageWebApp.Controllers
 {
     public class HomeController : Controller
     {
