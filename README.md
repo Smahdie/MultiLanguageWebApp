@@ -1,3 +1,6 @@
+![License](https://img.shields.io/github/license/Smahdie/MultiLanguageWebApp?style=flat-square)
+
+
 This is a sample project that shows how to support multiple languages in an ASP.NET web application. The project is created using .NET 5 and MVC framework.
 
 # 1. Startup
